@@ -1,0 +1,137 @@
+
+(gBar:15064): Gtk-CRITICAL **: 19:31:08.746: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gBar:15064): Gtk-CRITICAL **: 19:31:08.747: gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+
+(gBar:15064): Gtk-CRITICAL **: 19:31:08.747: gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+
+(gBar:15064): Gtk-CRITICAL **: 19:31:09.765: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+Set value for SuspendCommand: systemctl suspend
+Set value for LockCommand: gtklock -s ~/.config/gtklock/style.css
+Set value for ExitCommand: killall Hyprland
+Set value for BatteryFolder: /sys/class/power_supply/BAT0
+Set value for WorkspaceSymbol-1: 
+Set value for WorkspaceSymbol-2: 
+Set value for WorkspaceSymbol-3: 
+Set value for WorkspaceSymbol-4: 
+Set value for WorkspaceSymbol-5: 
+Set value for WorkspaceSymbol-6: 
+Set value for WorkspaceSymbol-7: 
+Set value for WorkspaceSymbol-8: 
+Set value for WorkspaceSymbol-9: 
+Set value for DefaultWorkspaceSymbol: 
+Set value for WorkspaceScrollOnMonitor: true
+Set value for WorkspaceScrollInvert: false
+Set value for UseHyprlandIPC: true
+Set value for Location: B
+Set value for CenterTime: true
+Set value for TimeSpace: 300
+Set value for DateTimeStyle: %a, %d %b - %R
+Set value for AudioInput: true
+Set value for AudioRevealer: false
+Set value for AudioScrollSpeed: 1
+Set value for CheckPackagesCommand: p="$(checkupdates)"; e=$?; if [ $e -eq 127 ] ; then exit 127; fi; if [ $e -eq 2 ] ; then echo "0" && exit 0; fi; echo "$p" | wc -l
+Set value for CheckUpdateInterval: 300
+Set value for AudioMinVolume: 0
+Set value for AudioMaxVolume: 100
+Set value for NetworkAdapter: wlan0
+Set value for NetworkWidget: true
+Set value for EnableSNI: true
+Set value for SNIIconSize: *, 25
+Set value for SNIIconSize: OBS, 23
+Set value for MinDownloadBytes: 0
+Set value for MaxDownloadBytes: 10485760
+Set value for MinUploadBytes: 0
+Set value for MaxUploadBytes: 5242880
+Wayland: Added workspace!
+Workspace ID: 1
+Wayland: Activate Workspace 1
+Wayland: Registering monitor eDP-1 at ID 0
+Wayland: Added group to monitor
+Forcefully activate workspace 1
+NVML not found, disabling Nvidia GPU
+PulseAudio: Context is ready!
+PulseAudio: Update info
+CSS found and loaded successfully!
+SNI: Clearing old children
+Invalid child!
+SNI: Registered Item org.kde.StatusNotifierItem-7275-1 /StatusNotifierItem
+SNI: Registered Item :1.25 /StatusNotifierItem
+SNI: Registered Item :1.2 /org/ayatana/NotificationItem/nm_applet
+SNI: Creating Item :1.2 /org/ayatana/NotificationItem/nm_applet
+SNI: Menu object path: /org/ayatana/NotificationItem/nm_applet/Menu
+SNI: Creating Item :1.25 /StatusNotifierItem
+SNI: Width: 32
+SNI: Height: 32
+SNI: Title: CopyQ
+SNI: Menu object path: /MenuBar
+SNI: Creating Item org.kde.StatusNotifierItem-7275-1 /StatusNotifierItem
+SNI: Width: 24
+SNI: Height: 24
+SNI: Title: Discord
+SNI: Menu object path: /com/canonical/dbusmenu
+SNI: Clearing old children
+Destroy widget
+SNI: Add :1.2 to widget
+SNI: Add :1.25 to widget
+SNI: Add org.kde.StatusNotifierItem-7275-1 to widget
+==> ERROR: Cannot fetch updates
+
+(gBar:15239): Gtk-CRITICAL **: 19:31:29.803: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gBar:15239): Gtk-CRITICAL **: 19:31:29.803: gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+
+(gBar:15239): Gtk-CRITICAL **: 19:31:29.803: gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+Set value for SuspendCommand: systemctl suspend
+Set value for LockCommand: gtklock -s ~/.config/gtklock/style.css
+Set value for ExitCommand: killall Hyprland
+Set value for BatteryFolder: /sys/class/power_supply/BAT0
+Set value for WorkspaceSymbol-1: 
+Set value for WorkspaceSymbol-2: 
+Set value for WorkspaceSymbol-3: 
+Set value for WorkspaceSymbol-4: 
+Set value for WorkspaceSymbol-5: 
+Set value for WorkspaceSymbol-6: 
+Set value for WorkspaceSymbol-7: 
+Set value for WorkspaceSymbol-8: 
+Set value for WorkspaceSymbol-9: 
+Set value for DefaultWorkspaceSymbol: 
+Set value for WorkspaceScrollOnMonitor: true
+Set value for WorkspaceScrollInvert: false
+Set value for UseHyprlandIPC: true
+Set value for Location: B
+Set value for CenterTime: true
+Set value for TimeSpace: 300
+Set value for DateTimeStyle: %a, %d %b - %R
+Set value for AudioInput: true
+Set value for AudioRevealer: false
+Set value for AudioScrollSpeed: 1
+Set value for CheckPackagesCommand: p="$(checkupdates)"; e=$?; if [ $e -eq 127 ] ; then exit 127; fi; if [ $e -eq 2 ] ; then echo "0" && exit 0; fi; echo "$p" | wc -l
+Set value for CheckUpdateInterval: 300
+Set value for AudioMinVolume: 0
+Set value for AudioMaxVolume: 100
+Set value for NetworkAdapter: wlan0
+Set value for NetworkWidget: true
+Set value for EnableSNI: true
+Set value for SNIIconSize: *, 25
+Set value for SNIIconSize: OBS, 23
+Set value for MinDownloadBytes: 0
+Set value for MaxDownloadBytes: 10485760
+Set value for MinUploadBytes: 0
+Set value for MaxUploadBytes: 5242880
+Wayland: Added workspace!
+Workspace ID: 1
+Wayland: Activate Workspace 1
+Wayland: Registering monitor eDP-1 at ID 0
+Wayland: Added group to monitor
+Forcefully activate workspace 1
+NVML not found, disabling Nvidia GPU
+PulseAudio: Context is ready!
+PulseAudio: Update info
+CSS found and loaded successfully!
+SNI: Clearing old children
+Invalid child!
+SNI: Registered Item org.kde.StatusNotifierItem-7275-1 /StatusNotifierItem
+SNI: Registered Item :1.25 /StatusNotifierItem
+SNI: Registered Item :1.2 /org/ayatana/NotificationItem/nm_applet
+==> ERROR: Cannot fetch updates
