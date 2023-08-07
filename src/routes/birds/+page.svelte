@@ -12,7 +12,7 @@
 			console.log(typeof data, data);
 			return data;
 		} catch (error) {
-			throw error;
+			return error;
 		}
 	}
 
@@ -22,7 +22,7 @@
 </script>
 
 <div class="space-y-10 text-center flex flex-col items-center">
-  <h2 class="h2">How many birds you wan see?</h2>
+	<h2 class="h2">How many birds you wan see?</h2>
 	<!-- Generator button -->
 	<RangeSlider
 		class="w-4/5 text-4xl"
@@ -32,9 +32,7 @@
 		max={10}
 		step={1}
 		ticked
-	>
-		
-	</RangeSlider>
+	/>
 	<button
 		class="text-2xl hover:bg-slate-600 p-1 mx-4 border-2 bg-gray-900 border-slate-600 rounded"
 		on:click={() => handleClick(value)}

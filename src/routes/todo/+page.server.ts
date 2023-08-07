@@ -22,7 +22,7 @@ export async function load({ cookies }) {
       },
     })
   } catch (err) {
-    throw err;
+    return err;
   }
 
   try {
@@ -37,7 +37,7 @@ export async function load({ cookies }) {
     log(todoList)
     return { list: todoList };
   } catch (err) {
-    throw err;
+    return err;
   }
 
 }
@@ -63,7 +63,7 @@ export const actions = {
         },
       });
     } catch (err) {
-      throw err;
+      return err;
     }
 
     return {
@@ -87,7 +87,7 @@ export const actions = {
         },
       })
     } catch (err) {
-      throw err;
+      return err;
     }
 
     return {

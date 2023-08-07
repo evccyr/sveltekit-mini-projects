@@ -10,7 +10,7 @@
 			const data = await res.json();
 			return { setup: data[0].setup, punchline: data[0].punchline };
 		} catch (error) {
-			throw error;
+			return error;
 		}
 	}
 	function handleClick(type: string) {
