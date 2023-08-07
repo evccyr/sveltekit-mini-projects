@@ -31,10 +31,7 @@
 		</AppBar>
 	</svelte:fragment>
 	<!-- Side Bar -->
-	<svelte:fragment slot="sidebarLeft">
-		<!-- Hidden below Tailwind's large breakpoint -->
-		<div id="sidebar-left" class="hidden lg:block">Sidebar</div>
-	</svelte:fragment>
+	<svelte:fragment slot="sidebarLeft" />
 
 	<div class="container h-full mx-auto flex justify-center items-center">
 		<slot />

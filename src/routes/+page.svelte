@@ -1,10 +1,8 @@
 <script>
 	const routes = [
-		['/jokes', 'Random Jokes Generator'],
-		['/pokemon', 'Get info about any Pokemon'],
-		['/birds', 'Random Bird Image Generator '],
-		['/spaceStation', 'Internation Space Station Locator'],
-		['/trivia', 'Trivia Question Game']
+		['/jokes', 'Jokes Generator'],
+		['/birds', 'Bird Image Generator'],
+		['/todo', 'Todo app']
 	];
 </script>
 

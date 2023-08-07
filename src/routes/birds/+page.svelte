@@ -7,7 +7,7 @@
 
 	async function birdImages(count: number) {
 		try {
-			const res = await fetch('http://shibe.online/api/birds?count=' + count);
+			const res = await fetch('https://shibe.online/api/birds?count=' + count);
 			const data = await res.json();
 			console.log(typeof data, data);
 			return data;
